@@ -15,7 +15,6 @@ uci set network.usbwan.device='eth1'
 uci set network.usbwan6=interface
 uci set network.usbwan6.proto='dhcpv6'
 uci set network.usbwan6.device='eth1'
-uci set network.usbwan6.reqaddress='try'
 uci commit network
                   
 #设置usbwan usbwan6 加入防火墙 并开启硬件加速
