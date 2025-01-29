@@ -6,7 +6,7 @@ uci set wireless.radio1.channel='64'
 uci set wireless.radio1.country='RU'
 uci commit wireless
 
-#设置 usnwan usbwan6 并且不要请求ipv6的前缀_手机卡网络提供的都是无状态的.
+#设置 usbnwan usbwan6 并且不要请求ipv6的前缀_手机卡网络提供的都是无状态的.
 #所以请求前缀指示增ipv6加局域网.意义不大(局域网已经有ipv4了,增加ipv6一大堆地址太难看了).
 #在这个版本的openwrt  手机的Usb共享 不是usb0 而是eth1
 uci set network.usbwan=interface
