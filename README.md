@@ -1,6 +1,6 @@
 Warning notification !!!
 
-For add usbpower Turn On and off
+For adding usbpower Turn On and off
 
 Add modifications:mt7621_xiaomi_mi-router-3g.dts
 
