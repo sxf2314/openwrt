@@ -1,4 +1,7 @@
 #
+
+uci del system.ntp.enabled
+uci del system.ntp.enable_server
 uci set system.cfg01e48a.zonename='Asia/Shanghai'
 uci set system.cfg01e48a.timezone='CST-8'
 uci set system.cfg01e48a.log_proto='udp'
